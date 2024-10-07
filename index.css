@@ -1,0 +1,90 @@
+body {
+    font-family: "Happy monkey", cursive;
+    text-align: center;
+    background: linear-gradient(skyblue, pink);
+    color: white;
+    
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid pink;
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+    
+#age {
+    background: pink;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+   
+}
+
+#date {
+    background: pink;
+    padding: 6px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.gift {
+    margin-top: 50px;
+    
+}
+.gift-title {
+    margin-bottom: 0px;
+}
+
+.gift-hint {
+    margin-top: 12px;
+}
+#gift-img {
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-image: url("images/giftcard.png");
+    background-size: cover;
+    margin: 0px auto 20px auto;
+    
+}
+
+#gift-img:hover {
+    background-image: url("images/gift.webp")
+}
+
+#gift-img2 {
+    background-image: url("images/giftcard.png");
+    border: 6px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0px auto 0px auto;
+}
+
+#gift-img2:hover {
+    background-image: url("images/happy.webp");
+}
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 15px auto;
+    
+}
+a {
+    color: white;
+    
+}
